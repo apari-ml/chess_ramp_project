@@ -12,7 +12,7 @@ gradle loadImages
 gradle loadRestFile
 
 
-######Transform tournament and game files with cor---
+######Transform tournament and game files with corb
 cd corb
 java -server -cp marklogic-xcc-10.0.9.5.jar;marklogic-corb-2.5.4.jar -DOPTIONS-FILE=corb_tournaments.properties com.marklogic.developer.corb.Manager
 java -server -cp marklogic-xcc-10.0.9.5.jar;marklogic-corb-2.5.4.jar -DOPTIONS-FILE=corb_games.properties com.marklogic.developer.corb.Manager
@@ -24,7 +24,7 @@ curl --anyauth --user apari:admin -X PUT -H "Content-type: application/xquery" -
 
 
 
-##To use custom rest endpoint---
+##To use custom rest endpoint
 curl --anyauth --user apari:admin -X GET -H "Accept: application/xml" "http://localhost:8010/LATEST/resources/chess?rs:arg1=SEARCHTERMHERE"
 
 example where you search for spain
