@@ -1,6 +1,4 @@
-#readme for solo ramp chess project
-
-user:pass === apari:admin
+#readme for solo ramp chess project --- user:pass === apari:admin
 
 **Order of commands in terminal from C:/chess**
 
