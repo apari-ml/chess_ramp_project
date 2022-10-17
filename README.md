@@ -2,14 +2,14 @@
 
 user:pass === apari:admin
 
-##Order of commands in terminal from C:/chess
-######Deploy & load everything into the database
-gradle mlDeploy
-gradle loadTournaments
-gradle loadGames
-gradle loadCSS
-gradle loadImages
-gradle loadRestFile
+**Order of commands in terminal from C:/chess**
+Deploy & load everything into the database
+>gradle mlDeploy
+>gradle loadTournaments
+>gradle loadGames
+>gradle loadCSS
+>gradle loadImages
+>gradle loadRestFile
 
 
 ######Transform tournament and game files with corb
