@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tournament xmlns="http://marklogic.com/mlu/chess-tournaments">
+	<name>France Tourney</name>
+	<tournamentid>2</tournamentid>
+	<location>
+		<city>Paris</city>
+		<country>France</country>
+		<lat>48.8566</lat>
+		<lon>2.3522</lon>
+	</location>
+	<startdate>2022-02-01</startdate>
+	<enddate>2022-02-10</enddate>
+	<players>
+		<player active="true">
+			<name>
+				<firstname>Magnus</firstname>
+				<lastname>Carlsen</lastname>
+			</name>
+			<contactinfo>
+				<phone>456-789-0123</phone>
+				<email>magnuscarlsen@marklogic.com</email>
+			</contactinfo>
+			<rating>2850</rating>
+			<countryrepresenting>Norway</countryrepresenting>
+			<address>
+				<street>456 Carlsen Street</street>
+				<city>Tonsberg</city>
+			</address>
+			<bankinfo>
+				<bankname>Norway Bank</bankname>
+				<routingnumber>987654</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Fabiano</firstname>
+				<lastname>Caruana</lastname>
+			</name>
+			<contactinfo>
+				<phone>174-654-3210</phone>
+				<email>fabianocaruana@marklogic.com</email>
+			</contactinfo>
+			<rating>2775</rating>
+			<countryrepresenting>United States</countryrepresenting>
+			<address>
+				<street>123 Broadway</street>
+				<city>New York</city>
+			</address>
+			<bankinfo>
+				<bankname>PNC</bankname>
+				<routingnumber>654845</routingnumber>
+			</bankinfo>
+		</player>
+	</players>
+	<organizer>
+		<name>
+			<firstname>Marcus</firstname>
+			<lastname>Lindbloom</lastname>
+		</name>
+		<contactinfo>
+			<phone>123-456-7890</phone>
+			<email>marcuslindbloom@marklogic.com</email>
+		</contactinfo>
+	</organizer>
+	<prize>$100,000</prize>
+	<description>
+		 fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. This is FIDE tournament two that took place Feb 1-10 2022 in Paris, France. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. 
+	</description>
+</tournament>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tournament xmlns="http://marklogic.com/mlu/chess-tournaments">
+	<name>France Tourney 2</name>
+	<tournamentid>5</tournamentid>
+	<location>
+		<city>Lyon</city>
+		<country>France</country>
+		<lat>45.7640</lat>
+		<lon>4.8357</lon>
+	</location>
+	<startdate>2022-03-20</startdate>
+	<enddate>2022-04-02</enddate>
+	<players>
+		<player active="true">
+			<name>
+				<firstname>Wesley</firstname>
+				<lastname>So</lastname>
+			</name>
+			<contactinfo>
+				<phone>915-625-4682</phone>
+				<email>wesleyso@marklogic.com</email>
+			</contactinfo>
+			<rating>2715</rating>
+			<countryrepresenting>United States</countryrepresenting>
+			<address>
+				<street>916 Hollywood</street>
+				<city>New York</city>
+			</address>
+			<bankinfo>
+				<bankname>American Bank</bankname>
+				<routingnumber>642542</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>David</firstname>
+				<lastname>Navara</lastname>
+			</name>
+			<contactinfo>
+				<phone>159-625-4682</phone>
+				<email>davidnavara@marklogic.com</email>
+			</contactinfo>
+			<rating>2681</rating>
+			<countryrepresenting>Czechia</countryrepresenting>
+			<address>
+				<street>123 Budejovicka Lane</street>
+				<city>Prague</city>
+			</address>
+			<bankinfo>
+				<bankname>Prague Bank</bankname>
+				<routingnumber>935841</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Maxime</firstname>
+				<lastname>Vachier-Lagrave</lastname>
+			</name>
+			<contactinfo>
+				<phone>159-625-4682</phone>
+				<email>MVL@marklogic.com</email>
+			</contactinfo>
+			<rating>2757</rating>
+			<countryrepresenting>France</countryrepresenting>
+			<address>
+				<street>123 Paris St.</street>
+				<city>Paris</city>
+			</address>
+			<bankinfo>
+				<bankname>Prague Bank</bankname>
+				<routingnumber>827431</routingnumber>
+			</bankinfo>
+		</player>
+	</players>
+	<organizer>
+		<name>
+			<firstname>Jaelynn</firstname>
+			<lastname>Mangis</lastname>
+		</name>
+		<contactinfo>
+			<phone>105-837-3729</phone>
+			<email>jaelynnmangis@marklogic.com</email>
+		</contactinfo>
+	</organizer>
+	<prize>$65,000</prize>
+	<description>
+		 fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. This is national tournament five that took place Mar 20-Apr 2 2022 in Lyon, France. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. 
+	</description>
+</tournament>

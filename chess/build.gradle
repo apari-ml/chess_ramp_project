@@ -1,0 +1,51 @@
+plugins { 
+  id "com.marklogic.ml-gradle" version "4.3.5"
+}
+
+repositories {
+  mavenCentral()
+  maven { url "https://developer.marklogic.com/maven2/" }
+}
+
+configurations {
+  mlcp
+}
+
+dependencies {
+  mlcp "com.marklogic:mlcp:10.0.6.2"
+}
+
+task loadTournaments(type: com.marklogic.gradle.task.MlcpTask){
+  classpath = configurations.mlcp
+  command = "IMPORT"
+  database = "chess-content"
+  input_file_path = "./src/tournaments"
+}
+
+task loadGames(type: com.marklogic.gradle.task.MlcpTask){
+  classpath = configurations.mlcp
+  command = "IMPORT"
+  database = "chess-content"
+  input_file_path = "./src/games"
+}
+
+task loadCSS(type: com.marklogic.gradle.task.MlcpTask){
+  classpath = configurations.mlcp
+  command = "IMPORT"
+  database = "chess-modules"
+  input_file_path = "./css"
+}
+
+task loadImages(type: com.marklogic.gradle.task.MlcpTask){
+  classpath = configurations.mlcp
+  command = "IMPORT"
+  database = "chess-modules"
+  input_file_path = "./images"
+}
+
+task loadRestFile(type: com.marklogic.gradle.task.MlcpTask){
+  classpath = configurations.mlcp
+  command = "IMPORT"
+  database = "chess-content"
+  input_file_path = "./chess.xqy"
+}

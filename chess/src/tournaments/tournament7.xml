@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tournament xmlns="http://marklogic.com/mlu/chess-tournaments">
+	<name>German Tourney</name>
+	<tournamentid>7</tournamentid>
+	<location>
+		<city>Munich</city>
+		<country>Germany</country>
+		<lat>48.1351</lat>
+		<lon>11.5820</lon>
+	</location>
+	<startdate>2022-04-01</startdate>
+	<enddate>2022-04-10</enddate>
+	<players>
+		<player active="true">
+			<name>
+				<firstname>David</firstname>
+				<lastname>Navara</lastname>
+			</name>
+			<contactinfo>
+				<phone>159-625-4682</phone>
+				<email>davidnavara@marklogic.com</email>
+			</contactinfo>
+			<rating>2681</rating>
+			<countryrepresenting>Czechia</countryrepresenting>
+			<address>
+				<street>123 Budejovicka Lane</street>
+				<city>Prague</city>
+			</address>
+			<bankinfo>
+				<bankname>Prague Bank</bankname>
+				<routingnumber>935841</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Wesley</firstname>
+				<lastname>So</lastname>
+			</name>
+			<contactinfo>
+				<phone>915-625-4682</phone>
+				<email>wesleyso@marklogic.com</email>
+			</contactinfo>
+			<rating>2715</rating>
+			<countryrepresenting>United States</countryrepresenting>
+			<address>
+				<street>916 Hollywood</street>
+				<city>New York</city>
+			</address>
+			<bankinfo>
+				<bankname>American Bank</bankname>
+				<routingnumber>642542</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Maxime</firstname>
+				<lastname>Vachier-Lagrave</lastname>
+			</name>
+			<contactinfo>
+				<phone>159-625-4682</phone>
+				<email>MVL@marklogic.com</email>
+			</contactinfo>
+			<rating>2757</rating>
+			<countryrepresenting>France</countryrepresenting>
+			<address>
+				<street>123 Paris St.</street>
+				<city>Paris</city>
+			</address>
+			<bankinfo>
+				<bankname>Prague Bank</bankname>
+				<routingnumber>827431</routingnumber>
+			</bankinfo>
+		</player>
+	</players>
+	<organizer>
+		<name>
+			<firstname>Ted</firstname>
+			<lastname>Tierney</lastname>
+		</name>
+		<contactinfo>
+			<phone>658-426-8254</phone>
+			<email>tedtierney@marklogic.com</email>
+		</contactinfo>
+	</organizer>
+	<prize>$25,000</prize>
+	<description>
+		fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. This is FIDE tournament seven that took place Apr 1-10 2022 in Munich, Germany. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting.
+	</description>
+</tournament>

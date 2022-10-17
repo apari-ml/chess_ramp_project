@@ -1,0 +1,5 @@
+{
+  "role-name" : "8010-chess-tournaments-nobody",
+  "description" : "Unauthenticated user",
+  "role" : [ ]
+}

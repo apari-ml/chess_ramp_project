@@ -1,0 +1,13 @@
+{
+  "server-name" : "8010-chess-tournaments",
+  "server-type" : "http",
+  "group-name" : "Default",
+  "enabled" : true,
+  "root" : "/",
+  "port" : 8010,
+  "content-database" : "chess-content",
+  "modules-database" : "chess-modules",
+  "authentication" : "digest",
+  "default-user" : "8010-chess-tournaments-reader",
+  "default-error-format" : "xml"
+}

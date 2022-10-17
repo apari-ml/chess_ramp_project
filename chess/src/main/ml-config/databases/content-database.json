@@ -1,0 +1,37 @@
+{
+  "database-name" : "%%DATABASE%%",
+  "enabled" : true,
+  "schema-database" : "Schemas",
+  "range-element-index" : [ {
+    "scalar-type" : "string",
+    "namespace-uri" : "http://marklogic.com/mlu/chess-tournaments",
+    "localname" : "name",
+    "collation" : "http://marklogic.com/collation/",
+    "range-value-positions" : false,
+    "invalid-values" : "reject"
+  },
+  { 
+    "scalar-type" : "string",
+    "namespace-uri" : "http://marklogic.com/mlu/chess-tournaments",
+    "localname" : "firstname",
+    "collation" : "http://marklogic.com/collation/en/S1/AS/T00BB",
+    "range-value-positions" : false,
+    "invalid-values" : "reject"
+  },
+  {
+    "scalar-type" : "date",
+    "namespace-uri" : "http://marklogic.com/mlu/chess-tournaments",
+    "localname" : "startdate",
+    "collation" : "",
+    "range-value-positions" : false,
+    "invalid-values" : "reject"
+  },
+  {
+    "scalar-type" : "date",
+    "namespace-uri" : "http://marklogic.com/mlu/chess-tournaments",
+    "localname" : "enddate",
+    "collation" : "",
+    "range-value-positions" : false,
+    "invalid-values" : "reject"
+  }]
+}

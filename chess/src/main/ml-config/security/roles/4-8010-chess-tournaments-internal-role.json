@@ -1,0 +1,5 @@
+{
+  "role-name" : "8010-chess-tournaments-internal",
+  "description" : "Internal role used for amping",
+  "role" : [ "8010-chess-tournaments-writer" ]
+}

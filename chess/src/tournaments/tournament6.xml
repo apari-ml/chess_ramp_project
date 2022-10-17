@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tournament xmlns="http://marklogic.com/mlu/chess-tournaments">
+	<name>Swiss Tourney</name>
+	<tournamentid>6</tournamentid>
+	<location>
+		<city>Zurich</city>
+		<country>Switzerland</country>
+		<lat>47.3769</lat>
+		<lon>8.5417</lon>
+	</location>
+	<startdate>2022-03-30</startdate>
+	<enddate>2022-04-10</enddate>
+	<players>
+		<player active="true">
+			<name>
+				<firstname>Magnus</firstname>
+				<lastname>Carlsen</lastname>
+			</name>
+			<contactinfo>
+				<phone>456-789-0123</phone>
+				<email>magnuscarlsen@marklogic.com</email>
+			</contactinfo>
+			<rating>2850</rating>
+			<countryrepresenting>Norway</countryrepresenting>
+			<address>
+				<street>456 Carlsen Street</street>
+				<city>Tonsberg</city>
+			</address>
+			<bankinfo>
+				<bankname>Norway Bank</bankname>
+				<routingnumber>987654</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Fabiano</firstname>
+				<lastname>Caruana</lastname>
+			</name>
+			<contactinfo>
+				<phone>174-654-3210</phone>
+				<email>fabianocaruana@marklogic.com</email>
+			</contactinfo>
+			<rating>2775</rating>
+			<countryrepresenting>United States</countryrepresenting>
+			<address>
+				<street>123 Broadway</street>
+				<city>New York</city>
+			</address>
+			<bankinfo>
+				<bankname>PNC</bankname>
+				<routingnumber>654845</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>David</firstname>
+				<lastname>Navara</lastname>
+			</name>
+			<contactinfo>
+				<phone>159-625-4682</phone>
+				<email>davidnavara@marklogic.com</email>
+			</contactinfo>
+			<rating>2681</rating>
+			<countryrepresenting>Czechia</countryrepresenting>
+			<address>
+				<street>123 Budejovicka Lane</street>
+				<city>Prague</city>
+			</address>
+			<bankinfo>
+				<bankname>Prague Bank</bankname>
+				<routingnumber>935841</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Alireza</firstname>
+				<lastname>Firouzja</lastname>
+			</name>
+			<contactinfo>
+				<phone>165-789-5893</phone>
+				<email>alirezafirouzja@marklogic.com</email>
+			</contactinfo>
+			<rating>2650</rating>
+			<countryrepresenting>France</countryrepresenting>
+			<address>
+				<street>735 Rue Cler</street>
+				<city>Paris</city>
+			</address>
+			<bankinfo>
+				<bankname>France Bank</bankname>
+				<routingnumber>879416</routingnumber>
+			</bankinfo>
+		</player>
+	</players>
+	<organizer>
+		<name>
+			<firstname>Marcus</firstname>
+			<lastname>Lindbloom</lastname>
+		</name>
+		<contactinfo>
+			<phone>123-456-7890</phone>
+			<email>marcuslindbloom@marklogic.com</email>
+		</contactinfo>
+	</organizer>
+	<prize>$55,000</prize>
+	<description>
+		fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. This is national tournament six that took place Mar 30-Apr 10 2022 in Zurich, Switzerland. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. 
+	</description>
+</tournament>

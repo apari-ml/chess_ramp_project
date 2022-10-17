@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tournament xmlns="http://marklogic.com/mlu/chess-tournaments">
+	<name>UK Tourney</name>
+	<tournamentid>4</tournamentid>
+	<location>
+		<city>London</city>
+		<country>United Kingdom</country>
+		<lat>51.5072</lat>
+		<lon>0.1276</lon>
+	</location>
+	<startdate>2022-03-05</startdate>
+	<enddate>2022-03-15</enddate>
+	<players>
+		<player active="true">
+			<name>
+				<firstname>Wesley</firstname>
+				<lastname>So</lastname>
+			</name>
+			<contactinfo>
+				<phone>915-625-4682</phone>
+				<email>wesleyso@marklogic.com</email>
+			</contactinfo>
+			<rating>2715</rating>
+			<countryrepresenting>United States</countryrepresenting>
+			<address>
+				<street>916 Hollywood</street>
+				<city>New York</city>
+			</address>
+			<bankinfo>
+				<bankname>American Bank</bankname>
+				<routingnumber>642542</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Fabiano</firstname>
+				<lastname>Caruana</lastname>
+			</name>
+			<contactinfo>
+				<phone>174-654-3210</phone>
+				<email>fabianocaruana@marklogic.com</email>
+			</contactinfo>
+			<rating>2775</rating>
+			<countryrepresenting>United States</countryrepresenting>
+			<address>
+				<street>123 Broadway</street>
+				<city>New York</city>
+			</address>
+			<bankinfo>
+				<bankname>PNC</bankname>
+				<routingnumber>654845</routingnumber>
+			</bankinfo>
+		</player>
+		<player active="true">
+			<name>
+				<firstname>Alireza</firstname>
+				<lastname>Firouzja</lastname>
+			</name>
+			<contactinfo>
+				<phone>165-789-5893</phone>
+				<email>alirezafirouzja@marklogic.com</email>
+			</contactinfo>
+			<rating>2650</rating>
+			<countryrepresenting>France</countryrepresenting>
+			<address>
+				<street>735 Rue Cler</street>
+				<city>Paris</city>
+			</address>
+			<bankinfo>
+				<bankname>France Bank</bankname>
+				<routingnumber>879416</routingnumber>
+			</bankinfo>
+		</player>
+	</players>
+	<organizer>
+		<name>
+			<firstname>Jaelynn</firstname>
+			<lastname>Mangis</lastname>
+		</name>
+		<contactinfo>
+			<phone>105-837-3729</phone>
+			<email>jaelynnmangis@marklogic.com</email>
+		</contactinfo>
+	</organizer>
+	<prize>$200,000</prize>
+	<description>
+		 fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. This is FIDE tournament four that took place Mar 5-15 2022 in London, UK. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. fillertext to show snippets and highlighting. 
+	</description>
+</tournament>
