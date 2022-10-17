@@ -3,6 +3,7 @@
 user:pass === apari:admin
 
 **Order of commands in terminal from C:/chess**
+
 Deploy & load everything into the database
 >gradle mlDeploy
 >
