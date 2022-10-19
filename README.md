@@ -15,6 +15,8 @@ Deploy & load everything into the database
 >gradle loadImages
 >
 >gradle loadRestFile
+>
+>gradle loadIndex
 
 
 ######Transform tournament and game files with corb
