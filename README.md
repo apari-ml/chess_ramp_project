@@ -29,11 +29,13 @@ Deploy & load everything into the database
 >java -server -cp marklogic-xcc-10.0.9.5.jar;marklogic-corb-2.5.4.jar -DOPTIONS-FILE=corb_tournaments.properties com.marklogic.developer.corb.Manager
 >
 >
+>----------
 >splits games into seperate docs & inserts them
 >
 >java -server -cp marklogic-xcc-10.0.9.5.jar;marklogic-corb-2.5.4.jar -DOPTIONS-FILE=corb_games.properties com.marklogic.developer.corb.Manager
 >
 >
+>----------
 >gives non-admin users permissions
 >
 >java -server -cp marklogic-xcc-10.0.9.5.jar;marklogic-corb-2.5.4.jar -DOPTIONS-FILE=corb_permissions.properties com.marklogic.developer.corb.Manager
