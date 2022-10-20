@@ -39,7 +39,12 @@ Deploy & load everything into the database
 >gives non-admin users permissions
 >
 >java -server -cp marklogic-xcc-10.0.9.5.jar;marklogic-corb-2.5.4.jar -DOPTIONS-FILE=corb_permissions.properties com.marklogic.developer.corb.Manager
-
+>
+>
+>----------
+>adds protected paths for sensitive info
+>
+>java -server -cp marklogic-xcc-10.0.9.5.jar;marklogic-corb-2.5.4.jar -DOPTIONS-FILE=corb_paths.properties com.marklogic.developer.corb.Manager
 
 ######Install custom rest file for custom GET function
 =========
