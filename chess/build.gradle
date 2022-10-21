@@ -49,3 +49,10 @@ task loadRestFile(type: com.marklogic.gradle.task.MlcpTask){
   database = "chess-content"
   input_file_path = "./chess.xqy"
 }
+
+task loadIndex(type: com.marklogic.gradle.task.MlcpTask){
+  classpath = configurations.mlcp
+  command = "IMPORT"
+  database = "chess-modules"
+  input_file_path = "./index.xqy"
+}

@@ -31,31 +31,9 @@ declare function chess:get(
     (: set 'output-type', used to generate content-type header :)
     let $output-type := map:put($context,"output-type","application/xml") 
     let $arg1 := map:get($params,"arg1")
-    let $content := 
-        cts:search(fn:collection(), cts:word-query($arg1))
+	
+    let $content := cts:search(fn:collection(), cts:word-query($arg1))
 		
     (: must return document node(s) :)		
     return document { $content } 
 };
-
-
-(:
-:declare function ss:get(
-:  $context as map:map,
-:  $params  as map:map
-:) as document-node()*
-:{
-:
-:  map:put($context, "output-types", "application/json"),
-:  map:put($context, "output-status", (200, "OK")),
-:
-:  let $search-term := map:get($params, "searchTerm")
-:  let $query := search:search($search-term,
-:      <options xmlns="http://marklogic.com/appservices/search">
-:        <transform-results apply="raw"/>
-:      </options>
-:      )
-:
-:  return document {$query} 
-:};
-:)

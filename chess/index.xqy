@@ -7,11 +7,11 @@ declare variable $options :=
   <options xmlns="http://marklogic.com/appservices/search">
   <constraint name="firstname">
 	<range type="xs:string"
-	collation="http://marklogic.com/collation/en/S1/AS/T00BB">
-	<element ns="http://marklogic.com/mlu/chess-tournaments" name="firstname"/>
-	<facet-option>limit=30</facet-option>
-	<facet-option>frequency-order</facet-option>
-	<facet-option>descending</facet-option>
+		collation="http://marklogic.com/collation/en/S1/AS/T00BB">
+		<element ns="http://marklogic.com/mlu/chess-tournaments" name="firstname"/>
+		<facet-option>limit=30</facet-option>
+		<facet-option>frequency-order</facet-option>
+		<facet-option>descending</facet-option>
 	</range>
   </constraint>
         <transform-results apply="snippet">
@@ -19,7 +19,9 @@ declare variable $options :=
 			<element ns="http://marklogic.com/mlu/chess-tournaments" name="description"/>
 		</preferred-elements>
 	</transform-results>
+	
 	<search:operator name="sort">
+	
 		<search:state name="name">
 			<search:sort-order direction="ascending" type="xs:string">
 				<search:element ns="http://marklogic.com/mlu/chess-tournaments" name="name"/>
@@ -28,6 +30,7 @@ declare variable $options :=
 				<search:score/>
 			</search:sort-order>
 		</search:state>
+		
 		<search:state name="newest">
 		    <search:sort-order direction="ascending" type="xs:date">
 		        <search:element ns="http://marklogic.com/mlu/chess-tournaments" name="startdate"/>
@@ -36,6 +39,7 @@ declare variable $options :=
 		        <search:score/>
 		    </search:sort-order>
 		</search:state>  
+		
 		<search:state name="firstname">
 		    <search:sort-order direction="ascending" type="xs:string">
 		        <search:element ns="http://marklogic.com/mlu/chess-tournaments" name="firstname"/>
@@ -44,7 +48,17 @@ declare variable $options :=
 		        <search:score/>
 		    </search:sort-order>
 		</search:state> 
-         </search:operator>
+		
+		<search:state name="tournamentid">
+		    <search:sort-order direction="ascending" type="xs:integer">
+		        <search:element name="tournamentid"/>
+		    </search:sort-order>
+		    <search:sort-order>
+		        <search:score/>
+		    </search:sort-order>
+		</search:state>
+		
+	 </search:operator>
   </options>;
 
 declare variable $results :=
@@ -176,7 +190,7 @@ declare function local:default-results()
 			<a href="index.xqy?uri={xdmp:url-encode(fn:base-uri($tournament))}">[more]</a>
 			</div>
 			</div>) 	
-	)[1 to 10]
+	)[1 to 20]
 };
 
 declare function local:date-check()

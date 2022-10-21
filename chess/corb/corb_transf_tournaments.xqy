@@ -24,4 +24,4 @@ let $doc :=
 	<source>{$source}</source>
 </envelope>
 
-return xdmp:document-insert($URI, $doc, (), ("corb_transformed"))
+return xdmp:document-insert($URI, $doc, xdmp:permission("8010-chess-tournaments-reader", "read"), ("corb_transformed"))
