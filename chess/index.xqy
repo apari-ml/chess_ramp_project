@@ -14,6 +14,13 @@ declare variable $options :=
 		<facet-option>descending</facet-option>
 	</range>
   </constraint>
+  
+	<constraint name="tournamentid">
+		<word>
+			<field name="tournamentid"/>
+		</word>
+	</constraint>
+  
         <transform-results apply="snippet">
 		<preferred-elements>
 			<element ns="http://marklogic.com/mlu/chess-tournaments" name="description"/>
@@ -51,7 +58,7 @@ declare variable $options :=
 		
 		<search:state name="tournamentid">
 		    <search:sort-order direction="ascending" type="xs:integer">
-		        <search:element name="tournamentid"/>
+		        <search:element ns ="" name="tournamentid"/>
 		    </search:sort-order>
 		    <search:sort-order>
 		        <search:score/>
