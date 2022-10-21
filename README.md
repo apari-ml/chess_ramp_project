@@ -1,8 +1,8 @@
 #readme for solo ramp chess project
-
-**admin user:pass === apari:admin**
 =========
+**admin user:pass === apari:admin**
 
+----------
 **Order of commands in terminal from C:/chess**
 
 Deploy & load everything into the database
