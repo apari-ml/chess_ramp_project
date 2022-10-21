@@ -33,5 +33,13 @@
     "collation" : "",
     "range-value-positions" : false,
     "invalid-values" : "reject"
+  },
+  {
+    "scalar-type" : "int",
+    "namespace-uri" : "",
+    "localname" : "tournamentid",
+    "collation" : "",
+    "range-value-positions" : false,
+    "invalid-values" : "reject"
   }]
 }
