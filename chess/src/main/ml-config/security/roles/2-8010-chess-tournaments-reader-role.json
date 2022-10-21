@@ -1,5 +1,5 @@
 {
   "role-name" : "8010-chess-tournaments-reader",
   "description" : "Can view documents, but not edit",
-  "role" : [ "rest-reader", "8010-chess-tournaments-nobody" ]
+  "role" : [ "rest-reader"]
 }
