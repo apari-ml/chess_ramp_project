@@ -2,6 +2,9 @@
 =========
 **admin user:pass === apari:admin**
 
+>can search for games in a certain tournament by searching tournamintid:#
+>where # is an integer 1-7
+
 ----------
 **Order of commands in terminal from C:/chess**
 
