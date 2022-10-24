@@ -74,10 +74,7 @@
 		</player>
 	</players>
 	<organizer>
-		<name>
-			<firstname>Ted</firstname>
-			<lastname>Tierney</lastname>
-		</name>
+		<name>Ted Tierney</name>
 		<contactinfo>
 			<phone>658-426-8254</phone>
 			<email>tedtierney@marklogic.com</email>

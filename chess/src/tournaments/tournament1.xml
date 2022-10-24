@@ -81,10 +81,7 @@ Bank routing # is 6 digit int : 123456
 		</player>
 	</players>
 	<organizer>
-		<name>
-			<firstname>Marcus</firstname>
-			<lastname>Lindbloom</lastname>
-		</name>
+		<name>Marcus Lindbloom</name>
 		<contactinfo>
 			<phone>123-456-7890</phone>
 			<email>marcuslindbloom@marklogic.com</email>

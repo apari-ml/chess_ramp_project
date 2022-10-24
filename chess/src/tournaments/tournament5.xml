@@ -74,10 +74,7 @@
 		</player>
 	</players>
 	<organizer>
-		<name>
-			<firstname>Jaelynn</firstname>
-			<lastname>Mangis</lastname>
-		</name>
+		<name>Jaelynn Mangis</name>
 		<contactinfo>
 			<phone>105-837-3729</phone>
 			<email>jaelynnmangis@marklogic.com</email>
