@@ -94,7 +94,7 @@
 		</player>
 	</players>
 	<organizer>
-		<name>Marcus Lindbloom</name>
+		<orgname>Marcus Lindbloom</orgname>
 		<contactinfo>
 			<phone>123-456-7890</phone>
 			<email>marcuslindbloom@marklogic.com</email>

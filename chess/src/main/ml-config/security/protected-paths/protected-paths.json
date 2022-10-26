@@ -1,0 +1,12 @@
+{
+	"path-expression" : "//ch:bankinfo",
+	  "path-namespace" : [ {
+		  "prefix" : "ch",
+		  "namespace-uri" : "http://marklogic.com/mlu/chess-tournaments"
+	} ],
+	  "permission" : [ {
+	    "role-name" : ["8010-chess-tournaments-admin"],
+	    "capability" : "read"
+	} ],
+	 "path-set" : ""
+}
