@@ -14,8 +14,6 @@ Deploy & load everything into the database
 >gradle loadTournaments
 >
 >gradle loadGames
->
->gradle loadRestFile
 
 
 #Transform tournament and game files with corb
